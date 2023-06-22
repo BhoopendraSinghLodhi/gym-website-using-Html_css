@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Battle Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+
+    body {
+        color: white;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0;
+        background: url(peakpx.jpg);
+        height: 100px;
+        
+        }
+
+  
+
+
+
+
+
+ .left{
+        border: 3px solid red; 
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        margin: 20px auto;
+    }
+
+    .left img{
+        width: 140px;
+
+    }
+
+    .left div {
+
+        line-height: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .center{
+        border: 3px solid rgb(0, 255, 00);
+        display: inline-block;
+        width: auto;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       
+    
+
+
+    }
+
+   
+        
+        
+    
+
+    .right{
+        border: 3px solid blue; 
+        display: inline-block;
+        position: absolute;
+        right: 50px;
+        top: 5%;
+        height: auto;
+        width: auto;
+        margin: auto;
+        
+    
+
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 35px 25px;
+
+    }
+
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        color: chartreuse;
+    }
+
+    .btn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin: 0px 10px;
+         background-color: black;
+         color: white;
+         padding: 5px 15px;
+         border: 2px solid grey;
+         border-radius: 10px;
+         font-size: 20px;
+         cursor: pointer;
+
+
+
+    }
+
+    .btn :hover{
+        background-color: white;
+
+    }
+    .container{
+        border: 2px slid white;
+        margin: 100px 80px;
+        padding: 75px;
+        border: 20px;
+
+
+    }
+
+    .fgroup input{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 25px;
+        border-radius: 10px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 75px;
+        margin: 20% auto;
+    }
+
+
+
+        
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpeg" alt="">
+            <div>Talent Battle</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active"  > Home</a></li>
+                <li><a href="#" class="active"  > About us</a></li>
+                <li><a href="#" class="active"  > Fitness</a></li>
+                <li><a href="#" class="active"  > Contact  us</a></li>
+               
+            </ul>
+
+
+        </div>
+     
+        <div class="right">
+
+          <button class="Sign in "></button>
+         <button class="Call"></button>
+
+
+
+
+        </div>
+      
+    </header>
+
+
+    <div class="container">
+        <h1>Join Now!!!</h1>
+        <form action="">
+
+            <div class="fgroup">
+               <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+
+            <div class="fgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+
+
+            <div class="fgroup">
+              <input type="text" name="" placeholder="Enter your gender">
+             </div>
+             
+              
+            
+            <div class="fgroup">
+                <input type="text" name="" placeholder="Enter your email id ">
+             </div>
+             <button class="btn"> submit</button>
+        </form>
+
+
+    </div>
+</body>
+</html>
